@@ -1,0 +1,29 @@
+{
+  "name": "david/phptest",
+  "description": "Php Test",
+  "type": "library",
+  "authors": [
+    {
+      "name": "David Batista",
+      "email": "dbatista.t@gmail.com"
+    }
+  ],
+  "version": "1.0",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "David\\PhpTest\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "David\\Test\\PhpTest\\": "test/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.5"
+  },
+  "require": {
+    "ext-pdo": "*"
+  }
+}
